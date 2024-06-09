@@ -13,19 +13,115 @@ This assignment aims to familiarize you with the tools and configurations necess
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
+# Answer:
+ - Choose Windows 11 and install it.
+ - Get Windows 11 here:
+   - Visit https://www.microsoft.com/software-download/windows11
+   - To download the Windows 11 Installation Assistant, click "Download now" and adhere to the on-screen directions.
+
+ - Set up Windows 11:
+   - Launch the Installation Assistant for Windows 11.
+   - To update your existing operating system to Windows11, follow the steps.
+
+
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+
+# Answer:
+ - Download VS Code:
+   - Go to https://code.visualstudio.com/Download
+   - Choose the appropriate version for Windows and download it.
+
+ - Install VS Code:
+   - Run the downloaded installer.
+   - Follow the installation prompts to complete the setup.
+
+
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+
+# Answer:
+ - Install Git:
+   - Go to Git Download Page.
+   - Download the Git for Windows installer.
+   - Run the installer and follow the prompts to install Git.
+
+ - Configure Git:
+   - Open Git Bash (installed with Git).
+
+ -  Configure your username and email:
+     - git config --global user.name "Your Name"
+     - git config --global user.email "your.email@example.com"
+
+ - Create a GitHub Account:
+   - Go to GitHub and sign up for a free account.
+
+ - Initialize a Git Repository:
+   - Create a new project directory:
+     - mkdir my_project
+     - cd my_project
+
+ - Initialize a new Git repository:
+     - git init
+     - Create a README file
+     - echo "# My Project" >> README.md
+     - git add README.md
+     - git commit -m "Initial commit"
+
+ - Create a Repository on GitHub:
+   - Go to your GitHub account.
+   - Click on “New” to create a new repository.
+   - Name your repository and follow the prompts.
+
+ - Push Local Repository to GitHub:
+
+   - Add the GitHub repository as a remote:
+   - git remote add origin https://github.com/yourusername/my_project.git
+   - git branch -M main
+   - git push -u origin main
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
+# Answer:
+ - Download Python:
+   - Go to https://www.python.org/
+   - Download the latest version of Python for Windows.
+
+ - Install Python:
+   - Run the installer.
+   - Make sure to check the option “Add Python to PATH”.
+   - Follow the installation prompts.
+
+ - Verify Python and pip Installation:
+   - Open Command Prompt and check the versions:
+     - python --version
+     - pip --version
+
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
 
+# Answer:
+ - Download MySQL:
+   - Go to https://dev.mysql.com/downloads/windows/installer/5.7.html
+   - Download the MySQL Installer for Windows.
+
+ - Install MySQL:
+   - Run the installer.
+   - Follow the prompts to install MySQL Server, MySQL Workbench, and MySQL Shell.
+
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+
+# Answer:
+- Open VS Code:
+- Go to Extensions (Ctrl+Shift+X).
+   - Search for and install the following extensions:
+   - Python
+   - GitLens
+   - Docker
+   - Prettier - Code formatter
+   - ESLint
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
